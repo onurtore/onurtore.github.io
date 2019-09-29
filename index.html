@@ -18,7 +18,10 @@
     </head>
     <body>
         <script>
-            $('#myModal').on('shown.bs.modal', function () {
+            $('#ODS_modal').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
+            $('#IAI_modal').on('shown.bs.modal', function () {
                 $('#myInput').trigger('focus')
             })
             $('#popup').modal();
@@ -39,7 +42,8 @@
             <section>
                 <h1><a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>Courses</h1>
                 <ul class="list-group">
-                        <li class="list-group-item"><a data-toggle="modal" href="#" data-target="#myModal">Online Data Science</a></li>
+                        <li class="list-group-item"><a data-toggle="modal" href="#" data-target="#IAI_modal">Introduction to Artificial Intelligence</a></li>
+                        <li class="list-group-item"><a data-toggle="modal" href="#" data-target="#ODS_modal">Online Data Science</a></li>
                 </ul>
             </section>
             <footer>
@@ -52,7 +56,7 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<div class="modal fade" id="ODS_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
 <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
     <div class="modal-header">
@@ -73,7 +77,24 @@
 </div>
 
 
-
+<!-- Modal -->
+<div class="modal fade" id="IAI_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Introduction to Artificial Intelligence</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
 
 
 
