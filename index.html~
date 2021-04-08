@@ -54,67 +54,6 @@
     <script src="javascripts/scale.fix.js"></script>
 
 
-<!-- 
-    To-Do
-    Remove these
-
--->
-
-
-<!-- Modal -->
-<!--
-<div class="modal fade" id="ODS_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-<div class="modal-dialog modal-dialog-scrollable" role="document">
-    <div class="modal-content">
-    <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">Online Data Science</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    <div class="modal-body">
-        Course Web Page:</br>
-        <a href= "http://inst.eecs.berkeley.edu/~cs188/fa19/">Berkeley~CS188</a>
-    </div>
-    <div class="modal-body">
-        Lab 2:</br>
-        <a href= "/teaching/materials/ods/Lab2/lab2.zip">Download</a></br>
-        Slides:</br>
-        <a href= "/teaching/materials/ods/Lab2/Pacman.pptx">Download</a></br>
-        Lab 4:</br>
-        <a href= "/teaching/materials/ods/Lab4/AILab44.pdf">Download</a></br>
-        <a href= "/teaching/materials/ods/Lab4/AILab4.docx">Download</a></br>
-
-        Assignment 3:</br>
-        <a href= "/teaching/materials/ods/Lab4/Comp341f18hw3.pdf">Download</a></br>
-    </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-    </div>
-    </div>
-</div>
-</div>
-
-
-<div class="modal fade" id="IAI_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-<div class="modal-dialog modal-dialog-scrollable" role="document">
-    <div class="modal-content">
-    <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalScrollableTitle">Introduction to Artificial Intelligence</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    <div class="modal-body">
-    </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-    </div>
-    </div>
-</div>
-</div>
--->
-
 
 </body>
 
